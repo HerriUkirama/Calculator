@@ -9,7 +9,9 @@ const delBtn = document.getElementById("delBtn");
 
 
 let arr =[];
+let apa;
 
+console.log(apa);
 function appendNumber(number){
     if(currScreen.textContent === "0"){
         currScreen.textContent = number;
